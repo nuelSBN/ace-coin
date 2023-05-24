@@ -1,0 +1,63 @@
+.expiry-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expiry-date-container {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expiry-date-details {
+  width: 90%;
+}
+
+.expiry-date-details h3 {
+  font-size: 0.6rem;
+  text-transform: capitalize;
+}
+
+.expiry-date-details small {
+  color: #666;
+  font-size: 0.55rem;
+}
+
+.expiry-date-input-container {
+  width: 45%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #f4f4f7;
+  background-color: var(--ace-input-bg);
+}
+
+.expiry-date-input-container input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
+
+.expiry-date-input-container input:focus {
+  outline: 1.4px solid var(--ace-primary);
+  color: var(--ace-primary);
+}
+
+.expiry-date-input-container span {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

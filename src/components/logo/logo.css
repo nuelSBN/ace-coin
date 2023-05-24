@@ -1,0 +1,31 @@
+figure {
+  display: flex;
+  align-items: center;
+}
+
+.logo_icon_container {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ace-primary);
+  color: var(--ace-white);
+}
+
+.logo_icon {
+  transform: rotate(-30deg);
+  font-size: 0.8rem;
+}
+
+.logo_text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #263051;
+  margin-left: 10px;
+}
+
+.logo_text span {
+  font-weight: 100;
+}

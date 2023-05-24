@@ -1,0 +1,31 @@
+@import url('./partials/card-number/card-number.css');
+@import url('./partials/cvv-number/cvv-number.css');
+@import url('./partials/expiry-date/expiry-date.css');
+@import url('./partials/password/password.css');
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 0.6rem;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--ace-primary);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: var(--ace-white);
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}

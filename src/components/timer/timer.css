@@ -1,0 +1,16 @@
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.timer span {
+  height: 2.8rem;
+  width: 1.7rem;
+  background-color: #1f2953;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--ace-white);
+  border-radius: 5px;
+}

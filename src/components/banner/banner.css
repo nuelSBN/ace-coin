@@ -1,0 +1,48 @@
+@import url('./partials/right-banner-top/right-banner-top.css');
+@import url('./partials/right-banner-bottom/right-banner-bottom.css');
+
+main {
+  width: 85%;
+  height: 85%;
+  background-color: var(--ace-white);
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-banner {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-banner {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background-color: #fcfbfc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 1100px) {
+  main {
+    width: 95%;
+    height: 95%;
+    overflow-x: scroll;
+    flex-direction: column;
+  }
+
+  .left-banner {
+    width: 100%;
+  }
+
+  .right-banner {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

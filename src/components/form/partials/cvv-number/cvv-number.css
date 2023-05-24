@@ -1,0 +1,61 @@
+.ccv-number {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ccv-number-container {
+  width: 48%;
+  display: flex;
+}
+
+.cvv-number-details {
+  width: 90%;
+}
+
+.cvv-number-details h3 {
+  font-size: 0.6rem;
+  text-transform: capitalize;
+}
+
+.cvv-number-details small {
+  color: #666;
+  font-size: 0.55rem;
+}
+
+.cvv-number-input-container {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #f4f4f7;
+  background-color: var(--ace-input-bg);
+}
+
+.cvv-number-input-container input {
+  border: none;
+  width: 90%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cvv-number-input-container input:focus {
+  outline: 1.4px solid var(--ace-primary);
+  color: var(--ace-primary);
+}
+
+.cvv-number-input-container span {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
